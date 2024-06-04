@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "image": "image1.jpg",
+        "title": "Beautiful Sunset",
+        "price": 19.99,
+        "likes": 150,
+        "comments": 30,
+        "description": "A breathtaking view of the sunset over the mountains.",
+        "hashtags": ["#sunset", "#nature", "#photography"]
+    },
+    {
+        "id": 2,
+        "image": "image2.jpg",
+        "title": "Delicious Pizza",
+        "price": 12.99,
+        "likes": 200,
+        "comments": 45,
+        "description": "A mouth-watering pepperoni pizza with extra cheese.",
+        "hashtags": ["#food", "#pizza", "#yummy"]
+    },
+    {
+        "id": 3,
+        "image": "image3.jpg",
+        "title": "Modern Art",
+        "price": 99.99,
+        "likes": 300,
+        "comments": 60,
+        "description": "An abstract piece of modern art featuring vibrant colors.",
+        "hashtags": ["#art", "#modern", "#abstract"]
+    },
+    {
+        "id": 4,
+        "image": "image4.jpg",
+        "title": "Luxury Car",
+        "price": 50000,
+        "likes": 500,
+        "comments": 120,
+        "description": "A sleek and stylish luxury car with advanced features.",
+        "hashtags": ["#car", "#luxury", "#auto"]
+    },
+    {
+        "id": 5,
+        "image": "image5.jpg",
+        "title": "Cozy Cottage",
+        "price": 250000,
+        "likes": 350,
+        "comments": 80,
+        "description": "A charming cottage in the countryside, perfect for a peaceful getaway.",
+        "hashtags": ["#cottage", "#cozy", "#vacation"]
+    },
+    {
+        "id": 6,
+        "image": "image6.jpg",
+        "title": "Stylish Watch",
+        "price": 199.99,
+        "likes": 180,
+        "comments": 50,
+        "description": "A sleek and modern watch with a minimalist design.",
+        "hashtags": ["#watch", "#fashion", "#style"]
+    },
+    {
+        "id": 7,
+        "image": "image7.jpg",
+        "title": "Mountain Adventure",
+        "price": 49.99,
+        "likes": 220,
+        "comments": 40,
+        "description": "An exciting adventure package for mountain climbing enthusiasts.",
+        "hashtags": ["#adventure", "#mountain", "#climbing"]
+    },
+    {
+        "id": 8,
+        "image": "image8.jpg",
+        "title": "Gourmet Chocolate",
+        "price": 29.99,
+        "likes": 270,
+        "comments": 55,
+        "description": "A box of assorted gourmet chocolates, perfect for gifting.",
+        "hashtags": ["#chocolate", "#gourmet", "#sweet"]
+    },
+    {
+        "id": 9,
+        "image": "image9.jpg",
+        "title": "Yoga Mat",
+        "price": 25.99,
+        "likes": 190,
+        "comments": 35,
+        "description": "A high-quality, non-slip yoga mat for all your workout needs.",
+        "hashtags": ["#yoga", "#fitness", "#health"]
+    },
+    {
+        "id": 10,
+        "image": "image10.jpg",
+        "title": "Designer Handbag",
+        "price": 299.99,
+        "likes": 320,
+        "comments": 75,
+        "description": "A luxurious designer handbag crafted from premium materials.",
+        "hashtags": ["#handbag", "#designer", "#fashion"]
+    },
+    {
+        "id": 11,
+        "image": "image11.jpg",
+        "title": "Beach Resort",
+        "price": 1200.00,
+        "likes": 450,
+        "comments": 100,
+        "description": "A week-long stay at a beautiful beach resort with all-inclusive amenities.",
+        "hashtags": ["#beach", "#resort", "#vacation"]
+    },
+    {
+        "id": 12,
+        "image": "image12.jpg",
+        "title": "Smartphone",
+        "price": 799.99,
+        "likes": 550,
+        "comments": 200,
+        "description": "The latest smartphone model with cutting-edge features.",
+        "hashtags": ["#smartphone", "#technology", "#gadgets"]
+    },
+    {
+        "id": 13,
+        "image": "image13.jpg",
+        "title": "Electric Guitar",
+        "price": 499.99,
+        "likes": 250,
+        "comments": 65,
+        "description": "A high-quality electric guitar for musicians of all levels.",
+        "hashtags": ["#guitar", "#music", "#instruments"]
+    },
+    {
+        "id": 14,
+        "image": "image14.jpg",
+        "title": "Luxury Watch",
+        "price": 1299.99,
+        "likes": 400,
+        "comments": 90,
+        "description": "An elegant luxury watch with a timeless design.",
+        "hashtags": ["#watch", "#luxury", "#elegant"]
+    },
+    {
+        "id": 15,
+        "image": "image15.jpg",
+        "title": "Hiking Boots",
+        "price": 89.99,
+        "likes": 160,
+        "comments": 45,
+        "description": "Durable and comfortable hiking boots for outdoor adventures.",
+        "hashtags": ["#hiking", "#boots", "#outdoors"]
+    },
+    {
+        "id": 16,
+        "image": "image16.jpg",
+        "title": "Wireless Headphones",
+        "price": 149.99,
+        "likes": 330,
+        "comments": 85,
+        "description": "Noise-cancelling wireless headphones with superior sound quality.",
+        "hashtags": ["#headphones", "#audio", "#wireless"]
+    },
+    {
+        "id": 17,
+        "image": "image17.jpg",
+        "title": "Fitness Tracker",
+        "price": 99.99,
+        "likes": 280,
+        "comments": 70,
+        "description": "A sleek fitness tracker to monitor your daily activities and health.",
+        "hashtags": ["#fitness", "#tracker", "#health"]
+    },
+    {
+        "id": 18,
+        "image": "image18.jpg",
+        "title": "Eco-Friendly Water Bottle",
+        "price": 15.99,
+        "likes": 210,
+        "comments": 50,
+        "description": "A reusable water bottle made from eco-friendly materials.",
+        "hashtags": ["#waterbottle", "#eco-friendly", "#sustainable"]
+    },
+    {
+        "id": 19,
+        "image": "image19.jpg",
+        "title": "Digital Camera",
+        "price": 549.99,
+        "likes": 380,
+        "comments": 95,
+        "description": "A high-resolution digital camera for capturing stunning photos.",
+        "hashtags": ["#camera", "#photography", "#digital"]
+    },
+    {
+        "id": 20,
+        "image": "image20.jpg",
+        "title": "Running Shoes",
+        "price": 129.99,
+        "likes": 300,
+        "comments": 80,
+        "description": "Comfortable and lightweight running shoes for all levels of runners.",
+        "hashtags": ["#running", "#shoes", "#fitness"]
+    }
+]
