@@ -6,8 +6,9 @@
     display: flex;
     color: white;
     height: 80px;
-    background-color: #151321;
+    background-color: #2e2f38;
     border-radius: var(--nav-radius) var(--nav-radius) 0px 0px;
+    z-index: 100;
 }
 .nav h1 {
     display: none;
@@ -54,7 +55,7 @@
         flex-direction: row;
         font-size: 18px;
         gap: 8px;
-        
+
     }
     
 }

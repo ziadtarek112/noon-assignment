@@ -1,0 +1,29 @@
+.heartButtonContainer{
+    position: absolute;
+    bottom: 18px;
+    left: 14px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+}
+
+.heartButton{
+
+    background-color: #ff9f00;
+    padding: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heartButton img{
+    filter: grayscale(100%) brightness(1.5);
+
+}
+.heartButtonContainer span {
+    background-color: #8b898a;
+    padding:4px 12px ;
+    border-radius: 12px;
+}

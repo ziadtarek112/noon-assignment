@@ -7,7 +7,9 @@
         "likes": 150,
         "comments": 30,
         "description": "A breathtaking view of the sunset over the mountains.",
-        "hashtags": ["#sunset", "#nature", "#photography"]
+        "hashtags": ["#sunset", "#nature", "#photography"],
+        "userName": "john_doe",
+        "userImage": "user1.jpg"
     },
     {
         "id": 2,
@@ -17,7 +19,9 @@
         "likes": 200,
         "comments": 45,
         "description": "A mouth-watering pepperoni pizza with extra cheese.",
-        "hashtags": ["#food", "#pizza", "#yummy"]
+        "hashtags": ["#food", "#pizza", "#yummy"],
+        "userName": "jane_smith",
+        "userImage": "user2.jpg"
     },
     {
         "id": 3,
@@ -27,7 +31,9 @@
         "likes": 300,
         "comments": 60,
         "description": "An abstract piece of modern art featuring vibrant colors.",
-        "hashtags": ["#art", "#modern", "#abstract"]
+        "hashtags": ["#art", "#modern", "#abstract"],
+        "userName": "art_lover",
+        "userImage": "user3.jpg"
     },
     {
         "id": 4,
@@ -37,7 +43,9 @@
         "likes": 500,
         "comments": 120,
         "description": "A sleek and stylish luxury car with advanced features.",
-        "hashtags": ["#car", "#luxury", "#auto"]
+        "hashtags": ["#car", "#luxury", "#auto"],
+        "userName": "car_fanatic",
+        "userImage": "user4.jpg"
     },
     {
         "id": 5,
@@ -47,7 +55,9 @@
         "likes": 350,
         "comments": 80,
         "description": "A charming cottage in the countryside, perfect for a peaceful getaway.",
-        "hashtags": ["#cottage", "#cozy", "#vacation"]
+        "hashtags": ["#cottage", "#cozy", "#vacation"],
+        "userName": "nature_enthusiast",
+        "userImage": "user5.jpg"
     },
     {
         "id": 6,
@@ -57,7 +67,9 @@
         "likes": 180,
         "comments": 50,
         "description": "A sleek and modern watch with a minimalist design.",
-        "hashtags": ["#watch", "#fashion", "#style"]
+        "hashtags": ["#watch", "#fashion", "#style"],
+        "userName": "fashion_guru",
+        "userImage": "user6.jpg"
     },
     {
         "id": 7,
@@ -67,7 +79,9 @@
         "likes": 220,
         "comments": 40,
         "description": "An exciting adventure package for mountain climbing enthusiasts.",
-        "hashtags": ["#adventure", "#mountain", "#climbing"]
+        "hashtags": ["#adventure", "#mountain", "#climbing"],
+        "userName": "adventure_seeker",
+        "userImage": "user7.jpg"
     },
     {
         "id": 8,
@@ -77,7 +91,9 @@
         "likes": 270,
         "comments": 55,
         "description": "A box of assorted gourmet chocolates, perfect for gifting.",
-        "hashtags": ["#chocolate", "#gourmet", "#sweet"]
+        "hashtags": ["#chocolate", "#gourmet", "#sweet"],
+        "userName": "sweet_tooth",
+        "userImage": "user8.jpg"
     },
     {
         "id": 9,
@@ -87,7 +103,9 @@
         "likes": 190,
         "comments": 35,
         "description": "A high-quality, non-slip yoga mat for all your workout needs.",
-        "hashtags": ["#yoga", "#fitness", "#health"]
+        "hashtags": ["#yoga", "#fitness", "#health"],
+        "userName": "fitness_fan",
+        "userImage": "user9.jpg"
     },
     {
         "id": 10,
@@ -97,7 +115,9 @@
         "likes": 320,
         "comments": 75,
         "description": "A luxurious designer handbag crafted from premium materials.",
-        "hashtags": ["#handbag", "#designer", "#fashion"]
+        "hashtags": ["#handbag", "#designer", "#fashion"],
+        "userName": "designer_diva",
+        "userImage": "user10.jpg"
     },
     {
         "id": 11,
@@ -107,7 +127,9 @@
         "likes": 450,
         "comments": 100,
         "description": "A week-long stay at a beautiful beach resort with all-inclusive amenities.",
-        "hashtags": ["#beach", "#resort", "#vacation"]
+        "hashtags": ["#beach", "#resort", "#vacation"],
+        "userName": "travel_bug",
+        "userImage": "user11.jpg"
     },
     {
         "id": 12,
@@ -117,7 +139,9 @@
         "likes": 550,
         "comments": 200,
         "description": "The latest smartphone model with cutting-edge features.",
-        "hashtags": ["#smartphone", "#technology", "#gadgets"]
+        "hashtags": ["#smartphone", "#technology", "#gadgets"],
+        "userName": "tech_geek",
+        "userImage": "user12.jpg"
     },
     {
         "id": 13,
@@ -127,7 +151,9 @@
         "likes": 250,
         "comments": 65,
         "description": "A high-quality electric guitar for musicians of all levels.",
-        "hashtags": ["#guitar", "#music", "#instruments"]
+        "hashtags": ["#guitar", "#music", "#instruments"],
+        "userName": "music_lover",
+        "userImage": "user13.jpg"
     },
     {
         "id": 14,
@@ -137,7 +163,9 @@
         "likes": 400,
         "comments": 90,
         "description": "An elegant luxury watch with a timeless design.",
-        "hashtags": ["#watch", "#luxury", "#elegant"]
+        "hashtags": ["#watch", "#luxury", "#elegant"],
+        "userName": "luxury_enthusiast",
+        "userImage": "user14.jpg"
     },
     {
         "id": 15,
@@ -147,7 +175,9 @@
         "likes": 160,
         "comments": 45,
         "description": "Durable and comfortable hiking boots for outdoor adventures.",
-        "hashtags": ["#hiking", "#boots", "#outdoors"]
+        "hashtags": ["#hiking", "#boots", "#outdoors"],
+        "userName": "outdoor_adventurer",
+        "userImage": "user15.jpg"
     },
     {
         "id": 16,
@@ -157,7 +187,9 @@
         "likes": 330,
         "comments": 85,
         "description": "Noise-cancelling wireless headphones with superior sound quality.",
-        "hashtags": ["#headphones", "#audio", "#wireless"]
+        "hashtags": ["#headphones", "#audio", "#wireless"],
+        "userName": "audio_phile",
+        "userImage": "user16.jpg"
     },
     {
         "id": 17,
@@ -167,7 +199,9 @@
         "likes": 280,
         "comments": 70,
         "description": "A sleek fitness tracker to monitor your daily activities and health.",
-        "hashtags": ["#fitness", "#tracker", "#health"]
+        "hashtags": ["#fitness", "#tracker", "#health"],
+        "userName": "health_nut",
+        "userImage": "user17.jpg"
     },
     {
         "id": 18,
@@ -177,7 +211,9 @@
         "likes": 210,
         "comments": 50,
         "description": "A reusable water bottle made from eco-friendly materials.",
-        "hashtags": ["#waterbottle", "#eco-friendly", "#sustainable"]
+        "hashtags": ["#waterbottle", "#eco-friendly", "#sustainable"],
+        "userName": "eco_warrior",
+        "userImage": "user18.jpg"
     },
     {
         "id": 19,
@@ -187,7 +223,9 @@
         "likes": 380,
         "comments": 95,
         "description": "A high-resolution digital camera for capturing stunning photos.",
-        "hashtags": ["#camera", "#photography", "#digital"]
+        "hashtags": ["#camera", "#photography", "#digital"],
+        "userName": "photo_pro",
+        "userImage": "user19.jpg"
     },
     {
         "id": 20,
@@ -196,7 +234,9 @@
         "price": 129.99,
         "likes": 300,
         "comments": 80,
-        "description": "Comfortable and lightweight running shoes for all levels of runners.",
-        "hashtags": ["#running", "#shoes", "#fitness"]
+        "description": "Comfortable",
+        "hashtags": ["#camera", "#photography", "#digital"],
+        "userName": "photo_pro",
+        "userImage": "user19.jpg"
     }
 ]
