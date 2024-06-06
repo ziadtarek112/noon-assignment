@@ -20,12 +20,8 @@ export const getPosts = async () => {
 };
 
 export const getLikedPosts = async () => {
-    const likes = JSON.parse(cookies().get("likes")?.value ?? "[]");
-      const response = await fetch("http://localhost:3000/api/posts", {
-        next : { tags :  ['posts'] }
-      });
-    const rawPosts: Post[] = await response.json();
-    return rawPosts.filter((post) => likes.includes(post.id));
+    const allPosts = await getPosts();
+    return allPosts.filter((post) => post.isLiked);
 }
 
 export const likePost = async (postId: string) => {

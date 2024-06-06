@@ -19,7 +19,7 @@ export default function PostsCard({ post }: { post: Post }) {
             height={200}
             src={post.image}
           />
-          <HeartButton postId={post.id} likes={post.likes} />
+          <HeartButton  isLiked = {post.isLiked} postId={post.id} likes={post.likes} />
         </div>
       </div>
 
