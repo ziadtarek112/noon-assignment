@@ -1,17 +1,19 @@
+@use "src/assets/styles/theme" as *;
+
 .postCard {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  border-bottom: 1px solid #6a6a6a;
+  border-bottom: 1px solid $color-gray2;
   padding-bottom: 1rem;
 }
+
 .user {
   display: flex;
-    
   align-items: center;
-  
   gap: 1rem;
 }
+
 .user img {
   width: 40px;
   height: 40px;
@@ -35,6 +37,7 @@
   flex-direction: column;
   gap: 1rem;
 }
+
 .hashtags {
   display: flex;
   gap: 4px;

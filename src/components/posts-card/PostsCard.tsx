@@ -1,5 +1,5 @@
 import Image from "next/image";
-import HeartButton from "./heart-button/HeartButton";
+import HeartButton from "../heart-button";
 import styles from "./PostsCard.module.scss";
 
 export default function PostsCard({ post }: { post: Post }) {

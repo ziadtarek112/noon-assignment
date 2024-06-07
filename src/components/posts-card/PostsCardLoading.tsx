@@ -1,5 +1,6 @@
-import Skeleton from "../skeleton";
+import Skeleton from "@/components/skeleton";
 import styles from "./PostsCard.module.scss";
+
 export default function PostsCardLoading() {
   return (
     <div className={styles.postCard}>
@@ -18,7 +19,7 @@ export default function PostsCardLoading() {
       <Skeleton variant="likes" />
       <Skeleton variant="description" />
       <div className={styles.hashtags}>
-        {[...Array(3)].map((hashtag, index) => (
+        {[...Array(3)].map((_, index) => (
           <Skeleton key={index} variant="hashtags" />
         ))}
       </div>

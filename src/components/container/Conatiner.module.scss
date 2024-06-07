@@ -1,11 +1,15 @@
-.container{
-    padding: 0 18px;
+@use "src/assets/styles/theme" as *;
+
+.container {
+  padding: 0 18px;
+  padding-bottom: 90px;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
-    .container{
-        max-width: 768px;
-        margin: 0 auto;
-    }
+@include screen-desktop {
+  .container {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
 }
-

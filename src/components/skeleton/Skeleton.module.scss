@@ -1,5 +1,12 @@
-$skeleton-bg: #313131;
-$skeleton-gradient: linear-gradient(90deg, $skeleton-bg 25%, #696969 50%, $skeleton-bg 75%);
+@use "src/assets/styles/theme" as *;
+
+$skeleton-bg: $color-gray3;
+$skeleton-gradient: linear-gradient(
+  90deg,
+  $skeleton-bg 25%,
+  $color-gray2 50%,
+  $skeleton-bg 75%
+);
 $skeleton-animation-duration: 1.5s;
 
 @mixin skeleton-shimmer {
@@ -24,21 +31,22 @@ $skeleton-animation-duration: 1.5s;
   height: 1em;
   border-radius: 4px;
   @include skeleton-shimmer;
-  
+
   &.description {
     height: 1em;
     margin-bottom: 0.5em;
     width: 60%;
   }
+
   &.likes {
     height: 1em;
     margin-bottom: 0.5em;
     width: 40%;
   }
+
   &.username {
     height: 1.5em;
     width: 50%;
-
   }
 
   &.avatar {
@@ -48,15 +56,16 @@ $skeleton-animation-duration: 1.5s;
   }
 
   &.image {
-    height: 200px;
+    height: 300px;
     width: 100%;
+    border-radius: 12px;
   }
-  &.hashtags {
 
+  &.hashtags {
     width: 50px;
   }
-  &.comment {
 
+  &.comment {
     width: 40%;
   }
 }

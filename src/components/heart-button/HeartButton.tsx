@@ -1,17 +1,20 @@
 import Image from "next/image";
 import styles from "./HeartButton.module.scss";
 import { likePost } from "@/api-calls/posts";
-import { revalidatePath, revalidateTag } from "next/cache";
+import { revalidateTag } from "next/cache";
 import { cookies } from "next/headers";
+
+type HeartButtonProps = {
+  postId: string;
+  isLiked: boolean;
+  likes: number;
+};
+
 export default function HeartButton({
   postId,
   isLiked,
   likes,
-}: {
-  postId: string;
-  isLiked: boolean;
-  likes: number;
-}) {
+}: HeartButtonProps) {
   const handleLike = async () => {
     "use server";
 
@@ -24,7 +27,7 @@ export default function HeartButton({
     <form action={handleLike} className={styles.heartButtonContainer}>
       <button type="submit" className={styles.heartButton}>
         <Image
-          src={`/icons/heart-${isLiked? 'bold': 'linear'}.svg`}
+          src={`/icons/heart-${isLiked ? "bold" : "linear"}.svg`}
           height={24}
           width={24}
           alt="heart-icon"
