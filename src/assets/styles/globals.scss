@@ -49,12 +49,12 @@ body {
   position: sticky;
   top: 0;
   font-family: var(--font-poppins);
-  
+
   strong {
     font-weight: inherit;
     color: $color-primary;
   }
-  
+
   @include screen-desktop {
     display: none;
   }

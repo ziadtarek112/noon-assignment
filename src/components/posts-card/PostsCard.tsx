@@ -15,10 +15,14 @@ export default function PostsCard({ post }: { post: Post }) {
           <Image
             className={styles.image}
             alt="post-image"
-            layout="fill"
+            fill
             src={post.image}
           />
-          <HeartButton  isLiked = {post.isLiked} postId={post.id} likes={post.likes} />
+          <HeartButton
+            isLiked={post.isLiked}
+            postId={post.id}
+            likes={post.likes}
+          />
         </div>
       </div>
 

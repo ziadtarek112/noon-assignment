@@ -1,8 +1,5 @@
-
-import {PostsListLoading} from "@/components/posts-list";
+import { PostsListLoading } from "@/components/posts-list";
 
 export default function HomeLoading() {
-  return (
-   <PostsListLoading/>
-  );
+  return <PostsListLoading />;
 }

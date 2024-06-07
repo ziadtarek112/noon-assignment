@@ -28,7 +28,7 @@ export default function Navbar() {
       <Link href={"/"}>Noon Social</Link>
       <ul>
         {routes.map((route) => (
-          <li key={route.path} >
+          <li key={route.path}>
             <Link href={route.path}>
               <Image
                 src={`/icons/${route.icon}-${

@@ -5,7 +5,7 @@ import { cookies } from "next/headers";
 export const getPosts = async () => {
   const likes = JSON.parse(cookies().get("likes")?.value ?? "[]");
   const response = await fetch("http://localhost:3000/api/posts", {
-    next : { tags :  ['posts'] }
+    next: { tags: ["posts"] },
   });
   const rawPosts: Post[] = await response.json();
   const posts = rawPosts.map((post) => {
@@ -21,9 +21,9 @@ export const getPosts = async () => {
 };
 
 export const getLikedPosts = async () => {
-    const allPosts = await getPosts();
-    return allPosts.filter((post) => post.isLiked);
-}
+  const allPosts = await getPosts();
+  return allPosts.filter((post) => post.isLiked);
+};
 
 export const likePost = async (postId: string) => {
   if (!cookies().get("likes")?.value) {
