@@ -25,7 +25,7 @@ export default function Navbar() {
   };
   return (
     <nav className={styles.nav}>
-      <Link href={"/"}>Noon Social</Link>
+      <Link className="app-title" href={"/"}> <strong>Noon</strong> Social</Link>
       <ul>
         {routes.map((route) => (
           <li key={route.path}>
