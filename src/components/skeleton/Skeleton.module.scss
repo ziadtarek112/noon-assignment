@@ -59,6 +59,10 @@ $skeleton-animation-duration: 1.5s;
     height: 300px;
     width: 100%;
     border-radius: 12px;
+
+    @include screen-desktop {
+      height: 500px;
+    }
   }
 
   &.hashtags {

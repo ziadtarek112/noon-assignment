@@ -6,6 +6,10 @@
   gap: 1rem;
   border-bottom: 1px solid $color-gray2;
   padding-bottom: 1rem;
+
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .user {
@@ -23,11 +27,15 @@
 
 .imageContainer {
   position: relative;
+  width: 100%;
+  height: 300px;
+
+  @include screen-desktop {
+    height: 500px;
+  }
 }
 
 .image {
-  width: 100%;
-  height: 300px;
   object-fit: cover;
   border-radius: 12px;
 }

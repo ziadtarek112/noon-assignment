@@ -15,8 +15,7 @@ export default function PostsCard({ post }: { post: Post }) {
           <Image
             className={styles.image}
             alt="post-image"
-            width={200}
-            height={200}
+            layout="fill"
             src={post.image}
           />
           <HeartButton  isLiked = {post.isLiked} postId={post.id} likes={post.likes} />
