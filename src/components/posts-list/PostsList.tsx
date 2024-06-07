@@ -18,9 +18,7 @@ export default function PostsList({ posts }: { posts: Post[] }) {
 
   return (
     <div className={styles.postsContainer}>
-      {posts?.map((post) => (
-        <PostsCard post={post} key={post.id} />
-      ))}
+      {posts?.map((post) => <PostsCard post={post} key={post.id} />)}
     </div>
   );
 }
