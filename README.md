@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Noon Social
 
-## Getting Started
+
+## Project Description
+
+Noon Social is a website that consists of two main pages.
+
+The first page (Home Page) :
+
+The home page where the user can view all the posts available on the website and have the ability to like any post then it will be added to his liked posts.
+
+
+The second page (Liked Posts) : 
+
+Liked Posts page is the page where the user can view his liked posts.
+
+
+## Used Technologies
+
+- Nextjs
+    The application uses the latest app router.
+    All the componets in the project are server components.
+    Used api route handlers to mock calling an API.
+    Used server actions to make the calls to the API.
+
+- SASS
+    Used partials, variables and mixins to create a theme for the application.
+
+## Project Structure
+
+- api-calls
+    Contains the functions that is usedto interact with the API route handlers.
+
+- app 
+    Contains the routes for nextjs.
+
+- assets/mocks
+    Contains the mock data displayed on the website.
+
+- assets/styles
+    Constians the global styles for our application.
+
+- components
+    Contains reusable components that are used throughout the project.
+
+- types
+    Contains Types used throughout the project.
+
+## Run The Application
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
