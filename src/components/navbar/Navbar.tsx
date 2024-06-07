@@ -26,7 +26,7 @@ export default function Navbar({}: Props) {
   }
   return (
     <nav className={styles.nav}>
-        <h1>Noon Social</h1>
+        <Link href={"/"}>Noon Social</Link>
       <ul >
         {routes.map((route) => (
           <li key={route.path} className="">
