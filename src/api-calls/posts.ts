@@ -9,7 +9,7 @@ import { cookies } from "next/headers";
 export const getPosts = async () => {
   const likes = JSON.parse(cookies().get("likes")?.value ?? "[]");
   const response = await fetch("http://localhost:3000/api/posts", {
-    next: { tags: ["posts"] },
+    cache: "force-cache",
   });
   const rawPosts: Post[] = await response.json();
   const posts = rawPosts.map((post) => {

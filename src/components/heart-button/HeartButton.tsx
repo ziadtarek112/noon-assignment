@@ -20,7 +20,7 @@ export default function HeartButton({
 
     const data = await likePost(postId);
     cookies().set("likes", JSON.stringify(data));
-    revalidateTag("posts");
+    // revalidateTag("posts");
   };
 
   return (
@@ -33,7 +33,7 @@ export default function HeartButton({
           alt="heart-icon"
         />
       </button>
-      <span className="">{likes}</span>
+      <span >{likes}</span>
     </form>
   );
 }
